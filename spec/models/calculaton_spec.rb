@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+# Behavior testing of formula at different distances.
 describe Calculation do 
 # All distance calculatons are reference to Google Map.
   context 'when small distance ~ 10km ' do

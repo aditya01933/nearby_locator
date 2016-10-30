@@ -1,5 +1,9 @@
 require_relative "dependencies"
 
-module NearbyLocator
-
+begin
+  puts Geocoder.new.find_nearby
+rescue Exception => e
+  puts e.message
 end
+
+

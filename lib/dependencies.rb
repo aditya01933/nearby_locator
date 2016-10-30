@@ -1,3 +1,2 @@
-require_relative "nearby_locator"
-require_relative "nearby_locator/calculation"
-require_relative "nearby_locator/geocoder"
+require_relative "models/calculation"
+require_relative "models/geocoder"

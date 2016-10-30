@@ -9,6 +9,7 @@ class Calculation
     @to = to
   end
 
+  # To find distance
   def distance     
     dlat_rad, dlon_rad = delta_radians
 
@@ -16,6 +17,7 @@ class Calculation
     c = 2 * Math::atan2(Math::sqrt(a), Math::sqrt(1 - a))
     RADIUS * c # Delta in meters
   end
+
   private
     
     # Delta, converted to rad
